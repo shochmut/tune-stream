@@ -15,6 +15,8 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import './Header.css'
+
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -155,7 +157,7 @@ const Search = styled('div')(({ theme }) => ({
     );
   
     return (
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1, mt: 3 }}>
         <AppBar position="fixed">
           <Toolbar>
             <IconButton
