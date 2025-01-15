@@ -24,7 +24,6 @@ import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
 import RepeatIcon from '@mui/icons-material/Repeat';
 
-import './MusicBar.css'
 
 
 const StyledFab = styled(Fab)({
